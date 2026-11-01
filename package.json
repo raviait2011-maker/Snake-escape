@@ -1,0 +1,15 @@
+{
+  "name": "snake-escape",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Snake Escape - tap-to-slither puzzle game",
+  "scripts": {
+    "setup": "bash setup.sh",
+    "sync": "node scripts/configure-native.js && npx cap sync",
+    "android": "npx cap open android",
+    "ios": "npx cap open ios",
+    "apk:debug": "cd android && ./gradlew assembleDebug",
+    "aab:release": "cd android && ./gradlew bundleRelease",
+    "configure": "node scripts/configure-native.js"
+  }
+}

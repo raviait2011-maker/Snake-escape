@@ -1,0 +1,8 @@
+{
+  "appId": "com.rdinfotechservice.snakeescape",
+  "appName": "Snake Escape",
+  "webDir": "www",
+  "backgroundColor": "#f4f1ea",
+  "ios": { "contentInset": "never" },
+  "android": { "allowMixedContent": false }
+}
