@@ -1,0 +1,20 @@
+{
+  "testMode": false,
+  "interstitialEveryNLevels": 3,
+  "interstitialMinSeconds": 90,
+  "noAdsBeforeLevel": 4,
+  "maxAdContentRating": "General",
+  "android": {
+    "appId": "ca-app-pub-8668321819485183~9782215073",
+    "banner": "ca-app-pub-8668321819485183/6342944770",
+    "interstitial": "ca-app-pub-8668321819485183/6002752162",
+    "rewarded": "ca-app-pub-8668321819485183/7002962317"
+  },
+  "ios": {
+    "appId": "ca-app-pub-3940256099942544~1458002511",
+    "banner": "ca-app-pub-3940256099942544/2934735716",
+    "interstitial": "ca-app-pub-3940256099942544/4411468910",
+    "rewarded": "ca-app-pub-3940256099942544/1712485313"
+  },
+  "trackingMessage": "Your data is used to show ads that are more relevant to you. You can say no and still play."
+}

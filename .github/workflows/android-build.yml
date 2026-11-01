@@ -26,6 +26,9 @@ jobs:
             cp -r snake-escape-app/. .
             rm -f .github/workflows/build.yml
           fi
+      - name: Use my own ads settings (if my-ads.config.json exists)
+        run: |
+          if [ -f my-ads.config.json ]; then cp my-ads.config.json ads.config.json; fi
       - name: Install Capacitor + plugins
         run: |
           npm install @capacitor/core @capacitor/app @capacitor/haptics @capacitor/status-bar @capacitor/splash-screen @capacitor-community/admob
